@@ -267,6 +267,7 @@ tryattach_random_to_lrandom(int devunit, struct lrandom_softc *bus, int busunit)
 
 static
 void
+<<<<<<< HEAD
 autoconf_con(struct con_softc *bus, int busunit)
 {
 	(void)bus; (void)busunit;
@@ -301,12 +302,16 @@ autoconf_emu(struct emu_softc *bus, int busunit)
 static
 void
 autoconf_random(struct random_softc *bus, int busunit)
+=======
+autoconf_rtclock(struct rtclock_softc *bus, int busunit)
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 {
 	(void)bus; (void)busunit;
 }
 
 static
 void
+<<<<<<< HEAD
 autoconf_ltimer(struct ltimer_softc *bus, int busunit)
 {
 	(void)bus; (void)busunit;
@@ -318,6 +323,14 @@ autoconf_ltimer(struct ltimer_softc *bus, int busunit)
 	{
 		if (nextunit_rtclock <= 0) {
 			tryattach_rtclock_to_ltimer(0, bus, busunit);
+=======
+autoconf_lrandom(struct lrandom_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+	{
+		if (nextunit_random <= 0) {
+			tryattach_random_to_lrandom(0, bus, busunit);
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 		}
 	}
 }
@@ -372,6 +385,21 @@ autoconf_lamebus(struct lamebus_softc *bus, int busunit)
 
 static
 void
+<<<<<<< HEAD
+=======
+autoconf_lser(struct lser_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+	{
+		if (nextunit_con <= 0) {
+			tryattach_con_to_lser(0, bus, busunit);
+		}
+	}
+}
+
+static
+void
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 autoconf_beep(struct beep_softc *bus, int busunit)
 {
 	(void)bus; (void)busunit;
@@ -379,19 +407,58 @@ autoconf_beep(struct beep_softc *bus, int busunit)
 
 static
 void
+<<<<<<< HEAD
 autoconf_lrandom(struct lrandom_softc *bus, int busunit)
 {
 	(void)bus; (void)busunit;
 	{
 		if (nextunit_random <= 0) {
 			tryattach_random_to_lrandom(0, bus, busunit);
+=======
+autoconf_con(struct con_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+}
+
+static
+void
+autoconf_ltimer(struct ltimer_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+	{
+		if (nextunit_beep <= 0) {
+			tryattach_beep_to_ltimer(0, bus, busunit);
+		}
+	}
+	{
+		if (nextunit_rtclock <= 0) {
+			tryattach_rtclock_to_ltimer(0, bus, busunit);
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 		}
 	}
 }
 
 static
 void
+<<<<<<< HEAD
 autoconf_rtclock(struct rtclock_softc *bus, int busunit)
+=======
+autoconf_emu(struct emu_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+}
+
+static
+void
+autoconf_random(struct random_softc *bus, int busunit)
+{
+	(void)bus; (void)busunit;
+}
+
+static
+void
+autoconf_lhd(struct lhd_softc *bus, int busunit)
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 {
 	(void)bus; (void)busunit;
 }

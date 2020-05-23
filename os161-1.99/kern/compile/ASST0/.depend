@@ -94,6 +94,16 @@ con_lser.o: ../../dev/lamebus/con_lser.c ../../include/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../dev/generic/console.h ../../dev/lamebus/lser.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h autoconf.h
+<<<<<<< HEAD
+=======
+emu_att.o: ../../dev/lamebus/emu_att.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
+  ../../include/spinlock.h includelinks/machine/spinlock.h \
+  ../../include/threadlist.h includelinks/machine/vm.h \
+  ../../dev/lamebus/emu.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 emu.o: ../../dev/lamebus/emu.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/kern/errno.h \
@@ -107,6 +117,7 @@ emu.o: ../../dev/lamebus/emu.c ../../include/types.h \
   ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/threadlist.h ../../include/vfs.h ../../include/emufs.h \
   ../../include/fs.h ../../include/vnode.h autoconf.h
+<<<<<<< HEAD
 emu_att.o: ../../dev/lamebus/emu_att.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -114,6 +125,8 @@ emu_att.o: ../../dev/lamebus/emu_att.c ../../include/types.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
   ../../dev/lamebus/emu.h autoconf.h
+=======
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 lamebus.o: ../../dev/lamebus/lamebus.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -124,6 +137,16 @@ lamebus.o: ../../dev/lamebus/lamebus.c ../../include/types.h \
   ../../include/array.h includelinks/machine/thread.h \
   ../../include/setjmp.h includelinks/kern/machine/setjmp.h \
   ../../dev/lamebus/lamebus.h
+<<<<<<< HEAD
+=======
+lhd_att.o: ../../dev/lamebus/lhd_att.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
+  ../../include/spinlock.h includelinks/machine/spinlock.h \
+  ../../include/threadlist.h includelinks/machine/vm.h \
+  ../../dev/lamebus/lhd.h ../../include/device.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 lhd.o: ../../dev/lamebus/lhd.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/kern/errno.h \
@@ -134,13 +157,21 @@ lhd.o: ../../dev/lamebus/lhd.c ../../include/types.h \
   ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/threadlist.h ../../include/vfs.h ../../include/array.h \
   ../../dev/lamebus/lhd.h ../../include/device.h autoconf.h
+<<<<<<< HEAD
 lhd_att.o: ../../dev/lamebus/lhd_att.c ../../include/types.h \
+=======
+lrandom_att.o: ../../dev/lamebus/lrandom_att.c ../../include/types.h \
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
+<<<<<<< HEAD
   ../../dev/lamebus/lhd.h ../../include/device.h autoconf.h
+=======
+  ../../dev/lamebus/lrandom.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 lrandom.o: ../../dev/lamebus/lrandom.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -149,13 +180,21 @@ lrandom.o: ../../dev/lamebus/lrandom.c ../../include/types.h \
   ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h ../../dev/lamebus/lrandom.h autoconf.h
+<<<<<<< HEAD
 lrandom_att.o: ../../dev/lamebus/lrandom_att.c ../../include/types.h \
+=======
+lser_att.o: ../../dev/lamebus/lser_att.c ../../include/types.h \
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
+<<<<<<< HEAD
   ../../dev/lamebus/lrandom.h autoconf.h
+=======
+  ../../dev/lamebus/lser.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 lser.o: ../../dev/lamebus/lser.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -164,13 +203,21 @@ lser.o: ../../dev/lamebus/lser.c ../../include/types.h \
   includelinks/machine/vm.h ../../dev/lamebus/lamebus.h \
   ../../include/cpu.h ../../include/threadlist.h ../../dev/lamebus/lser.h \
   autoconf.h
+<<<<<<< HEAD
 lser_att.o: ../../dev/lamebus/lser_att.c ../../include/types.h \
+=======
+ltimer_att.o: ../../dev/lamebus/ltimer_att.c ../../include/types.h \
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
+<<<<<<< HEAD
   ../../dev/lamebus/lser.h autoconf.h
+=======
+  ../../dev/lamebus/ltimer.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 ltimer.o: ../../dev/lamebus/ltimer.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -179,13 +226,21 @@ ltimer.o: ../../dev/lamebus/ltimer.c ../../include/types.h \
   ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h ../../dev/lamebus/ltimer.h autoconf.h
+<<<<<<< HEAD
 ltimer_att.o: ../../dev/lamebus/ltimer_att.c ../../include/types.h \
+=======
+ltrace_att.o: ../../dev/lamebus/ltrace_att.c ../../include/types.h \
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
+<<<<<<< HEAD
   ../../dev/lamebus/ltimer.h autoconf.h
+=======
+  ../../dev/lamebus/ltrace.h autoconf.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 ltrace.o: ../../dev/lamebus/ltrace.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -193,6 +248,7 @@ ltrace.o: ../../dev/lamebus/ltrace.c ../../include/types.h \
   ../../dev/lamebus/lamebus.h ../../include/cpu.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h ../../dev/lamebus/ltrace.h autoconf.h
+<<<<<<< HEAD
 ltrace_att.o: ../../dev/lamebus/ltrace_att.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
@@ -200,6 +256,8 @@ ltrace_att.o: ../../dev/lamebus/ltrace_att.c ../../include/types.h \
   ../../include/spinlock.h includelinks/machine/spinlock.h \
   ../../include/threadlist.h includelinks/machine/vm.h \
   ../../dev/lamebus/ltrace.h autoconf.h
+=======
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 random_lrandom.o: ../../dev/lamebus/random_lrandom.c \
   ../../include/types.h ../../include/kern/types.h \
   includelinks/kern/machine/types.h includelinks/machine/types.h \
@@ -566,6 +624,78 @@ uw-vmstats.o: ../../vm/uw-vmstats.c ../../include/types.h \
   opt-noasserts.h ../../include/synch.h ../../include/spinlock.h \
   includelinks/machine/spinlock.h ../../include/spl.h \
   ../../include/uw-vmstats.h
+<<<<<<< HEAD
+=======
+trap.o: ../../arch/mips/locore/trap.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/signal.h \
+  includelinks/kern/machine/signal.h ../../include/kern/signal.h \
+  ../../include/lib.h ../../include/cdefs.h opt-noasserts.h \
+  includelinks/mips/specialreg.h includelinks/mips/trapframe.h \
+  ../../include/cpu.h ../../include/spinlock.h \
+  includelinks/machine/spinlock.h ../../include/threadlist.h \
+  includelinks/machine/vm.h ../../include/spl.h ../../include/thread.h \
+  ../../include/array.h includelinks/machine/thread.h \
+  ../../include/setjmp.h includelinks/kern/machine/setjmp.h \
+  ../../include/current.h includelinks/machine/current.h \
+  ../../include/vm.h ../../include/mainbus.h ../../include/syscall.h
+syscall.o: ../../arch/mips/syscall/syscall.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/kern/errno.h \
+  ../../include/kern/syscall.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h includelinks/mips/trapframe.h ../../include/thread.h \
+  ../../include/array.h ../../include/spinlock.h \
+  includelinks/machine/spinlock.h ../../include/threadlist.h \
+  includelinks/machine/thread.h ../../include/setjmp.h \
+  includelinks/kern/machine/setjmp.h ../../include/current.h \
+  includelinks/machine/current.h ../../include/syscall.h
+cpu.o: ../../arch/mips/thread/cpu.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h includelinks/mips/specialreg.h \
+  includelinks/mips/trapframe.h includelinks/platform/maxcpus.h \
+  ../../include/cpu.h ../../include/spinlock.h \
+  includelinks/machine/spinlock.h ../../include/threadlist.h \
+  includelinks/machine/vm.h ../../include/thread.h ../../include/array.h \
+  includelinks/machine/thread.h ../../include/setjmp.h \
+  includelinks/kern/machine/setjmp.h
+switchframe.o: ../../arch/mips/thread/switchframe.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h ../../include/thread.h ../../include/array.h \
+  ../../include/spinlock.h includelinks/machine/spinlock.h \
+  ../../include/threadlist.h includelinks/machine/thread.h \
+  ../../include/setjmp.h includelinks/kern/machine/setjmp.h \
+  ../../include/threadprivate.h ../../arch/mips/thread/switchframe.h
+switch.o: ../../arch/mips/thread/switch.S \
+  includelinks/kern/mips/regdefs.h
+thread_machdep.o: ../../arch/mips/thread/thread_machdep.c \
+  ../../include/types.h ../../include/kern/types.h \
+  includelinks/kern/machine/types.h includelinks/machine/types.h \
+  ../../include/lib.h ../../include/cdefs.h opt-noasserts.h \
+  ../../include/thread.h ../../include/array.h ../../include/spinlock.h \
+  includelinks/machine/spinlock.h ../../include/threadlist.h \
+  includelinks/machine/thread.h ../../include/setjmp.h \
+  includelinks/kern/machine/setjmp.h ../../include/threadprivate.h
+threadstart.o: ../../arch/mips/thread/threadstart.S \
+  includelinks/kern/mips/regdefs.h
+dumbvm.o: ../../arch/mips/vm/dumbvm.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/kern/errno.h \
+  ../../include/lib.h ../../include/cdefs.h opt-noasserts.h \
+  ../../include/spl.h ../../include/spinlock.h \
+  includelinks/machine/spinlock.h ../../include/proc.h \
+  ../../include/thread.h ../../include/array.h ../../include/threadlist.h \
+  includelinks/machine/thread.h ../../include/setjmp.h \
+  includelinks/kern/machine/setjmp.h ../../include/current.h \
+  includelinks/machine/current.h includelinks/mips/tlb.h \
+  ../../include/addrspace.h ../../include/vm.h includelinks/machine/vm.h
+ram.o: ../../arch/mips/vm/ram.c ../../include/types.h \
+  ../../include/kern/types.h includelinks/kern/machine/types.h \
+  includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
+  opt-noasserts.h ../../include/vm.h includelinks/machine/vm.h \
+  ../../include/mainbus.h
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 adddi3.o: ../../../common/gcc-millicode/adddi3.c \
   ../../../common/gcc-millicode/longlong.h ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
@@ -682,6 +812,7 @@ xordi3.o: ../../../common/gcc-millicode/xordi3.c \
   ../../include/limits.h ../../include/kern/limits.h
 setjmp.o: ../../../common/libc/arch/mips/setjmp.S \
   includelinks/kern/mips/regdefs.h
+<<<<<<< HEAD
 trap.o: ../../arch/mips/locore/trap.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/signal.h \
@@ -751,6 +882,8 @@ ram.o: ../../arch/mips/vm/ram.c ../../include/types.h \
   includelinks/machine/types.h ../../include/lib.h ../../include/cdefs.h \
   opt-noasserts.h ../../include/vm.h includelinks/machine/vm.h \
   ../../include/mainbus.h
+=======
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 copyinout.o: ../../vm/copyinout.c ../../include/types.h \
   ../../include/kern/types.h includelinks/kern/machine/types.h \
   includelinks/machine/types.h ../../include/kern/errno.h \

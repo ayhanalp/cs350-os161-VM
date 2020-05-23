@@ -13,7 +13,11 @@
 # The things that can be set here are documented in mk/os161.config.mk.
 #
 
+<<<<<<< HEAD
 OSTREE=/u0/aaaydeniz/cs350/cs350-os161/root
+=======
+OSTREE=/home/cs350/cs350-os161/root
+>>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 PLATFORM=sys161
 MACHINE=mips
 COMPAT_CFLAGS=
