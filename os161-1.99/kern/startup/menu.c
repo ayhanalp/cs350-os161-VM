@@ -290,8 +290,6 @@ cmd_quit(int nargs, char **args)
 }
 
 /*
-<<<<<<< HEAD
-=======
  * Command for DB_THREADS Debugging
  */
 static
@@ -307,7 +305,6 @@ cmd_dth(int nargs, char **args)
 }
 
 /*
->>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
  * Command for mounting a filesystem.
  */
 
@@ -455,10 +452,7 @@ static const char *opsmenu[] = {
 	"[sync]    Sync filesystems          ",
 	"[panic]   Intentional panic         ",
 	"[q]       Quit and shut down        ",
-<<<<<<< HEAD
-=======
 	"[dth]	   DB_THREADS Debugger	     ",
->>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 	NULL
 };
 
@@ -570,11 +564,8 @@ static struct {
 	{ "panic",	cmd_panic },
 	{ "q",		cmd_quit },
 	{ "exit",	cmd_quit },
-<<<<<<< HEAD
 	{ "halt",	cmd_quit },
-=======
 	{ "dth",        cmd_dth },	
->>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 
 #if OPT_SYNCHPROBS
 	/* in-kernel synchronization problem(s) */

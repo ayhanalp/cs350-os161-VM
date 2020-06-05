@@ -101,11 +101,8 @@ boot(void)
 	kprintf("%s", harvard_copyright);
 	kprintf("\n");
 
-<<<<<<< HEAD
-	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n", 
-=======
+ 
 	kprintf("Ayhan Alp Aydeniz's system version %s (%s #%d)\n", 
->>>>>>> 31dbd1a62c81b975375972401eabc04909095b6c
 		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
 
